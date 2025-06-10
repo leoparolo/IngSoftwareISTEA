@@ -1,0 +1,5 @@
+C:\Users\leona\OneDrive\Escritorio\Ing Software\IngSoftwareISTEA\HelloWorld\out\HelloWorld.exe
+C:\Users\leona\OneDrive\Escritorio\Ing Software\IngSoftwareISTEA\HelloWorld\out\HelloWorld.dll
+C:\Users\leona\OneDrive\Escritorio\Ing Software\IngSoftwareISTEA\HelloWorld\out\HelloWorld.deps.json
+C:\Users\leona\OneDrive\Escritorio\Ing Software\IngSoftwareISTEA\HelloWorld\out\HelloWorld.runtimeconfig.json
+C:\Users\leona\OneDrive\Escritorio\Ing Software\IngSoftwareISTEA\HelloWorld\out\HelloWorld.pdb

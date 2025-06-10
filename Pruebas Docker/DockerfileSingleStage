@@ -1,0 +1,11 @@
+# Imagen base: runtime de .NET 8
+FROM mcr.microsoft.com/dotnet/runtime:8.0 AS runtime
+
+# Directorio de trabajo en el contenedor
+WORKDIR /app
+
+# Copiar los archivos publicados
+COPY ./out ./
+
+# Comando para ejecutar la app
+ENTRYPOINT ["dotnet", "HelloWorld.dll"]
