@@ -8,6 +8,7 @@ Estas son las pruebas que hice para contenerizar una pequeña app desarrolla en 
 
 ```bash
 git clone https://github.com/leoparolo/IngSoftwareISTEA.git
+```
 
 ## Con la aplicación ya creada, cree el archivo Dockerfile (sin extensión)
 - Aproveche e investigue un poco más, haciendo un Dockerfile que solamente copia los dll para ejecutar la app
@@ -17,10 +18,12 @@ git clone https://github.com/leoparolo/IngSoftwareISTEA.git
 
 ```bash
 docker build -t helloworld .
+```
 
 - lo cree con el tag helloworld y le indico que el proyecto esta en la carpeta donde se encuentra actualmente
 
 ```bash
 docker run --rm helloworld
+```
 
 - Con este comando ejecuto la app, para este caso (aplicación de consola) utilice --rm para que se elimine el contenedor luego de su ejecución, evitando que queden contenedores parados
